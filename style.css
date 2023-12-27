@@ -1,0 +1,335 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; /* Set the body width to 100% */
+  background-color: #e0e4df; /* Set the background color */
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: normal; 
+}
+
+label {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 10px; /* Adjust as needed */
+  margin-right: 10px; /* Adjust as needed */
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: bold; /* Optional: to make labels bold */
+}
+
+header{
+  background-color: #C0A92C;
+  color: #494646;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  height: 1%;
+  margin-top: -800px;
+}
+
+.logo {
+  position: absolute;
+  top: 16px;
+  right: 1270px; 
+  width: 100px; 
+  height: 90px; 
+  z-index: 3;
+}
+
+.logo_background {
+  position: absolute;
+  top: 8px;
+  right: 1260px;  
+  width: 120px; 
+  height: 105px; 
+  z-index: 3;
+}
+
+.headline {
+  width: 500px;
+  height: 55px;
+  background-color: #ffffff;
+  border-radius: 18px; /* Rounded corners */
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.headline-text {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: bold; 
+  font-size: 28px;
+}
+
+.headline-img {
+  width: 55px;
+  height: 55px;
+  background-image: url('background.png'); 
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 460px;
+  border-radius: 50%; /* Circular shape */
+}
+
+.compass {
+  width: 350px;
+  height: 350px;
+  border: 5px solid #eee;
+  border-radius: 50%;
+  position: fixed;
+  top: 260px;
+  left: 230px;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.layer-1 {
+  width: 660px;
+  height: 660px;
+  border: 2px solid #eee;
+}
+
+.layer-2 {
+  width: 560px;
+  height: 560px;
+  border: 2px solid #eee;
+}
+
+.layer-3 {
+  width: 460px;
+  height: 460px;
+  border: 2px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layer-4 {
+  width: 360px;
+  height: 360px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layer-5 {
+  width: 240px;
+  height: 240px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slice-rect {
+  width: 21%;
+  height: 5%;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.layer-6 {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layer6_img {
+  position: absolute;
+  top: 0px;
+  right: 20px;  
+  width: 80px; 
+  height: 80px;
+  z-index: 3;
+}
+
+  /* Styles for the reset buttons */
+.reset-button {
+  position: absolute;
+  top: 520px;
+  right: 128px; 
+}
+
+footer {
+  background-color: #b6b4ad;
+  color: #163e28;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: normal; /* For regular weight */
+}
+
+.footer-info p {
+  display: inline;
+  margin-right: 20px;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: normal; /* For regular weight */
+}
+
+.contact-imgs {
+  width: 15px;
+  height: 15px;
+  color: #C0A92C;
+  vertical-align: middle; /* Align the image vertically */
+}
+
+#copy-right {
+  margin-left: 270px;
+  display: inline;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: normal; 
+}
+
+a {
+  color: #163e28;
+  text-decoration: none; 
+}
+
+  /* Visited link style */
+a:visited {
+  color: #52191b; 
+}
+
+  /* Hovered link style */
+a:hover {
+  color: #2d5a47; 
+  text-decoration: underline;
+}
+
+#myTextArea, #myTextArea2, #myTextArea3, #myTextArea4, #myTextArea5 {
+  width: 7%; 
+  height: 10px; 
+  padding: 10px;
+  position: fixed;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; 
+  margin-top: 20px;
+  text-align: right;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+  font-weight: bold; 
+  background-color:#c5ad41;
+  color: #fff;
+}
+
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  
+}
+
+.solid-line1  {
+  position: absolute;
+  top: 13%;
+  width: 2px; /* Adjust line width as needed */
+  height: 32%; /* Height of the line */
+  background-color: #0000; /* Color of the line */
+  border-color: #5B5C5F;
+  transform-origin: 50% 100%;
+  z-index: 99;
+}
+
+.solid-line2 {
+  position: absolute;
+  top: 19%;
+  width: 2px; /* Adjust line width as needed */
+  height: 32%; /* Height of the line */
+  background-color: #0000; /* Color of the line */
+  border-color: #5B5C5F;
+  transform-origin: 50% 100%;
+  z-index: 99;
+
+}
+
+.layer-1 .slice-rect {
+  color: #fff; /* Set your desired text color */
+  background-color: #353935;
+  border: 1px solid #353935;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+
+}
+
+
+.layer-2 .slice-rect {
+  color: #fff; /* Set your desired text color */
+  background-color: #c5ad41;
+  border: 1px solid #c5ad41;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+
+}
+
+
+.layer-3 .slice-rect {
+  color: #fff; /* Set your desired text color */
+  background-color: #353935;
+  border: 1px solid #353935;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+
+}
+
+
+
+.layer-4 .slice-rect {
+  color: #fff; /* Set your desired text color */
+  background-color: #a58f3f;
+  border: 1px solid #a58f3f;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+
+}
+
+
+.layer-5 .slice-rect {
+  color: #fff; /* Set your desired text color */
+  background-color: #353935;
+  border: 1px solid #353935;
+  font-family: 'STC','Cairo', 'Times New Roman', Times, serif; /* Apply STC font */
+
+}
+
+.rectangle {
+  width: 570px; /* Width of the rectangle */
+  height: 420px; /* Height of the rectangle */
+  background-color: #e0e4df; /* Background color */
+  border: 2px solid #beab65; /* Border color and thickness */
+  position: absolute;
+  top: 15%;
+  left: 168%;
+
+}
